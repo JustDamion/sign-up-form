@@ -1,7 +1,7 @@
 :root,
 html {
     --dark-green: #596D48;
-    --light-blue: #E5E7EB;
+    --light-grey: #E5E7EB;
 }
 
 *,
@@ -24,6 +24,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    background-color: var(--light-grey);
 }
 
 img,
@@ -63,4 +64,49 @@ h4,
 h5,
 h6 {
     text-wrap: balance;
+}
+
+label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #282828;
+}
+
+input {
+    border: none;
+    border: 1px solid var(--light-grey);
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 1px 1px 5px #858585;
+}
+
+.form__container {
+    padding: 20px 40px
+}
+
+.form__background--light {
+    background-color: white;
+}
+
+.form__button--submit {
+    margin: 20px 40px;
+    padding: 12px 40px;
+    font-weight: bold;
+    background-color: var(--dark-green);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px 10px 0;
+}
+
+.form__input--row {
+    display: flex;
 }
