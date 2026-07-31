@@ -91,6 +91,10 @@ main {
     align-content: center;
 }
 
+main p {
+    margin-left: 40px;
+}
+
 label {
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -113,7 +117,7 @@ input:focus {
 
 .header__title {
     font-family: "norse";
-    font-size: 42px;
+    font-size: 3rem;
     font-weight: bold;
     color: white;
 
@@ -135,10 +139,8 @@ input:focus {
 
 .form__container {
     padding: 20px 40px;
-}
-
-.form__background--light {
     background-color: white;
+    box-shadow: 5px 5px 5px #cbcbcb;
 }
 
 .form__button--submit {
