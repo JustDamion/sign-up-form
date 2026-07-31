@@ -104,6 +104,7 @@ label {
 input {
     border: none;
     border: 1px solid var(--light-grey);
+    padding: 0 8px;
 }
 
 input:user-invalid {
