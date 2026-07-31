@@ -115,6 +115,10 @@ input:focus {
     text-decoration: underline;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .header__title {
     font-family: "norse";
     font-size: 3rem;
@@ -137,7 +141,18 @@ input:focus {
     margin-bottom: 10px;
 }
 
+.description {
+    width: 650px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.description__cta {
+    margin: 40px;
+}
+
 .form__container {
+    width: 800px;
     padding: 20px 40px;
     background-color: white;
     box-shadow: 5px 5px 5px #cbcbcb;
@@ -162,4 +177,10 @@ input:focus {
 
 .form__input--row {
     display: flex;
+}
+
+.login__button {
+    cursor: pointer;
+    color: var(--dark-green);
+    font-weight: bold;
 }
