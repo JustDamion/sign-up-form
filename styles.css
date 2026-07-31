@@ -85,6 +85,10 @@ header {
     background-image: url(images/leafy-background.jpg);
 }
 
+main {
+    align-content: center;
+}
+
 label {
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -102,7 +106,7 @@ input:focus {
 }
 
 .form__container {
-    padding: 20px 40px
+    padding: 20px 40px;
 }
 
 .form__background--light {
