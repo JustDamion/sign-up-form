@@ -78,11 +78,13 @@ h6 {
 }
 
 header {
-    font-family: "norse";
-    font-size: 42px;
-    font-weight: bold;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 550px;
     background-image: url(images/leafy-background.jpg);
+    background-size: cover;
 }
 
 main {
@@ -103,6 +105,32 @@ input {
 input:focus {
     border-color: blue;
     box-shadow: 1px 1px 5px #858585;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.header__title {
+    font-family: "norse";
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: #00000080
+}
+
+.header__title img {
+    width: 80px;
+}
+
+.header__credit {
+    color: #e1e1e1;
+    margin-bottom: 10px;
 }
 
 .form__container {
