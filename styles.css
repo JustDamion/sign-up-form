@@ -106,6 +106,10 @@ input {
     border: 1px solid var(--light-grey);
 }
 
+input:user-invalid {
+    border-color: #e10000;
+}
+
 input:focus {
     border-color: blue;
     box-shadow: 1px 1px 5px #858585;
